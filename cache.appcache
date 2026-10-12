@@ -1,20 +1,17 @@
 CACHE MANIFEST
-# rev 20261013-v2
+# rev 20261013-v4
 
 index.html
 jb.html
+logo_raw.png
 bg.jpeg
 jb.js
 core.js
 mem.js
 int64.js
 ps4_offsets.js
-rpc_worker.js
 payload2.bin
 goldhen.bin
-patches/1302.bin
-patches/1350.bin
-patches/1352.bin
 
 NETWORK:
 *
