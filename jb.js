@@ -55,11 +55,11 @@ function finishUI(ok) {
   const m = document.getElementById("msg");
   if (m)
     m.textContent = ok
-      ? "SHAI BLABAN"
+      ? "خالصا"
       : armedEver
         ? "Restart your console"
         : "Refresh the page and run again";
-  document.body.className = ok ? "SHAI BLABAN" : "fail";
+  document.body.className = ok ? "خالصا" : "fail";
 }
 function mark(tag, detail) {
   const raw = detail;
