@@ -1,9 +1,8 @@
 CACHE MANIFEST
-# rev 20261013-v5
+# rev 20261013-v6
 
 index.html
 jb.html
-bg.jpeg
 jb.js
 core.js
 mem.js
@@ -12,6 +11,7 @@ ps4_offsets.js
 rpc_worker.js
 payload2.bin
 goldhen.bin
+bg.jpg
 
 NETWORK:
 *
