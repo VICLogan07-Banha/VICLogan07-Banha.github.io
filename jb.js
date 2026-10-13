@@ -51,15 +51,11 @@ function terse(s) {
 const SHOW_LOG = params.get("log") === "1";
 if (SHOW_LOG && document.body) document.body.className = "log";
 function finishUI(ok) {
-  if (SHOW_LOG || !document.body) return;
-  const m = document.getElementById("msg");
-  if (m)
-    m.textContent = ok
-      ? "Doom"
-      : armedEver
-        ? "Restart your console"
-        : "Refresh the page and run again";
-  document.body.className = ok ? "Doom" : "fail";
+    const n = document.getElementById("msg");
+    if (n) {
+        n.textContent = ok ? "Doom" : "fool";
+    }
+    document.body.className = ok ? "success" : "fail";
 }
 function mark(tag, detail) {
   const raw = detail;
