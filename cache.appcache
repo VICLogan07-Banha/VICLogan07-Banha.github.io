@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# rev 20261013-v6
+# rev 20261013-v21
 
 index.html
 jb.html
-jb.js
+jb.js?v=21
 core.js
 mem.js
 int64.js
