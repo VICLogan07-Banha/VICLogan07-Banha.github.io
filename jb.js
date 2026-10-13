@@ -55,11 +55,11 @@ function finishUI(ok) {
   const m = document.getElementById("msg");
   if (m)
     m.textContent = ok
-      ? "victor doom"
+      ? "Doom"
       : armedEver
         ? "Restart your console"
         : "Refresh the page and run again";
-  document.body.className = ok ? "victor doom" : "fail";
+  document.body.className = ok ? "Doom" : "fail";
 }
 function mark(tag, detail) {
   const raw = detail;
